@@ -376,272 +376,6 @@ margin-top: 3px;
     }
   }
 
-  @media (max-width: 321px) {
-    .container {
-      width: 100%;
-    }
-    nav {
-      display: flex;
-      height: 150px;
-    }
-
-    .navbar {
-      flex-direction: column;
-    }
-
-    .logo img {
-      width: 100px;
-    }
-    
-    .container_search {
-      display: flex;
-      flex-direction: row;
-    }
-
-    .search-bar button {
-      margin-left: -60px;
-      margin-top: 3px;
-    }
-
-    .cart img {
-      width: 30px;
-      margin-left: 5px;
-    }
-
-    .iklan {
-      display: flex;
-      flex-direction: column;
-    }
-
-    #slider {
-      display: none;
-    }
-
-    .promo img {
-      width: 250px;
-      margin-left: 24px;
-    }
-
-    
-    .items {
-      display: flex;
-      flex-wrap: wrap;
-    }
-    .kategori .card {
-      max-height: 170px;
-      border-radius: 6px;
-      margin: 0 28px 8px 8px;
-      border: 1px solid silver;
-    }
-
-    .kategori .kategori-text p, .rekomendasi .rekomendasi-teks p {
-      padding: 20px;
-      font-size: 26px;
-      font-weight: bold;
-      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-      background-color: white;
-    }
-  
-    .items .keterangan p {
-      font-family: "Quicksand", sans-serif;
-      font-weight: 700;
-    }
-  
-    .kategori-text p {
-      margin-left: -20px;
-    }
-  
-    .rekomendasi-teks p {
-      margin-left: 3px;
-    }
-  
-    .items {
-      display: flex;
-    }
-  
-    .card {
-      padding: 12px;
-      background-color: rgb(255, 255, 255);
-      width: 110px;
-      justify-content: space-around;
-      box-sizing: border-box;
-      margin: 5px 11px 5px 0;
-    }
-  
-   
-  
-    .card .gambar img {
-      width: 50px;
-      margin-left: 18px;
-    }
-  
-    .card .keterangan p {
-      text-align: center;
-      padding-top: 8px;
-      font-size: 10px;
-    }
-  
-    .card a {
-      cursor: pointer;
-      color: black;
-    }
-  
-    .card:hover {
-      transform: scale(1.05);
-      transition-duration: 0.6s;
-    }
-    /* kategori end */
-  
-    /* rekomendasi */
-    .rekomendasi {
-      margin-top: 60px;
-    }
-  
-    .katalog-produk {
-      display: flex;
-      flex-wrap: wrap;
-      margin-left: 8px;
-      padding: 15px;
-      width: 320px;
-      height: 1300px;
-    }
-  
-    .card-katalog {
-      height: 240px;
-      width: 136px;
-      margin-top: 10px;
-      background-color: white;
-      border: 1px solid silver;
-      border-radius: 3px;
-      font-family: "Signika", sans-serif;
-    }
-  
-    .card-katalog a {
-      color: black;
-    }
-  
-    .card-katalog:hover {
-      transform: scale(1.05);
-      transition-duration: 0.6s;
-    }
-  
-    .card-katalog .deskripsi, .harga {
-      width: 115px;
-      margin: 3px;
-      padding-left: 3px;
-      font-size: 9.8px;
-    }
-  
-    .card-katalog .deskripsi {
-      font-weight: 500;
-    }
-  
-    .card-katalog .katalog-img img {
-      border-top-right-radius: 3px;
-      border-top-left-radius: 3px;
-      width: 134px;
-    }
-  
-    .card-katalog .harga {
-      margin-top: 9px;
-      font-weight: bold;
-    }
-  
-    .card-katalog .rating {
-      display: flex;
-      margin-left: 6px;
-      margin-top: 20px;
-    }
-  
-    .rating .rating-img img {
-      width: 12px;
-    }
-    .rating .rating-angka {
-      margin-top: 4px;
-      margin-left: 4px;
-      font-size: 10px;
-    }  
-  
-    .lokasi {
-      margin-left: 10px; 
-      margin-top: 6px;
-      font-size: 9.7px;
-    }
-    
-    .footer {
-      margin-top: 120px;
-      background-color: rgb(20, 20, 76);
-      width: 400px;
-      height: 400px;
-      margin-left: -100px;
-      bottom: 0;
-      color: white;
-    }
-  
-    .footer-content {
-      width: 90%;
-      margin: auto;
-      display: flex;
-      flex-wrap: wrap;
-    }
-  
-    .footer-info {
-      display: flex;
-      flex-wrap: wrap;
-      margin-top: 20px;
-      margin-left: 80px;
-      gap: 30px;
-    }
-  
-    .footer-content .logo-miu {
-      margin-top: 10px;
-    }
-
-    .logo-miu img {
-      margin-left: 37px;
-      width: 200px;
-    }
-  
-    .top-kategori p, .layanan-miu p, .sosmed p{
-      margin-bottom: 10px;
-      font-family: "Poppins", sans-serif;
-      font-size: 12px;
-      font-weight: 600;
-    }
-  
-    .top-kategori a, .layanan-miu a {
-      color: white;
-      font-family: "Outfit", sans-serif;
-      font-weight: 400;
-      font-size: 10px;
-      transition-duration: 0.7s;
-    }
-  
-    .top-kategori a:hover, .layanan-miu a:hover {
-      opacity: 0.5;
-    }
-  
-    .sosmed-icon a {
-      color: white;
-      margin-right: 6px;
-    }
-  
-    .sosmed-icon i {
-      margin-top: 15px;
-    }
-  
-    .copyright {
-      margin-left: 36%;
-      margin-top: 80px;
-    }
-  
-    .copyright a {
-      color: white;
-      font-size: 12px;
-      margin-bottom: 8px;
-    }
-  }
-
   @media (max-width: 360px) {
 
     .container {
@@ -684,23 +418,23 @@ margin-top: 3px;
       display: none;
     }
 
-    .promo img {
-      width: 250px;
+    .iklan .promo img {
+      width: 300px;
       margin-left: 40px;
     }
 
+  
     
-    .items {
+    .kategori .items .card {
+      width: 150px;
+      height: 150px;
       display: flex;
       flex-wrap: wrap;
-    }
-    .kategori .card {
-      width: 130px;
       border-radius: 6px;
-      margin: 0 28px 8px 8px;
+      margin: 0 8px 10px 9px;
       border: 1px solid silver;
     }
-
+   
     .kategori .kategori-text p, .rekomendasi .rekomendasi-teks p {
       padding: 20px;
       font-size: 26px;
@@ -708,6 +442,11 @@ margin-top: 3px;
       font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
       background-color: white;
     }
+
+    .kategori .card .gambar img {
+        width: 85px;
+        margin-left: 20px;
+      }
   
     .items .keterangan p {
       font-family: "Quicksand", sans-serif;
@@ -721,27 +460,7 @@ margin-top: 3px;
     .rekomendasi-teks p {
       margin-left: 3px;
     }
-  
-    .items {
-      display: flex;
-    }
-  
-    .card {
-      padding: 12px;
-      background-color: rgb(255, 255, 255);
-      width: 120px;
-      justify-content: space-around;
-      box-sizing: border-box;
-      margin: 5px 11px 5px 0;
-    }
-  
-   
-  
-    .card .gambar img {
-      width: 50px;
-      margin-left: 30px;
-    }
-  
+
     .card .keterangan p {
       text-align: center;
       padding-top: 8px;
@@ -769,13 +488,13 @@ margin-top: 3px;
       flex-wrap: wrap;
       margin: auto;
       padding: 6px;
-      width: 320px;
+      width: 300px;
       height: 1300px;
     }
   
-    .card-katalog {
-      height: 240px;
-      width: 145px;
+    .rekomendasi .card-katalog {
+      height: 280px;
+      width: 160px;
       margin-top: 10px;
       background-color: white;
       border: 1px solid silver;
@@ -798,15 +517,19 @@ margin-top: 3px;
       padding-left: 3px;
       font-size: 9.9px;
     }
+
+    #add-harga {
+      margin-top: 25px;
+    }
   
     .card-katalog .deskripsi {
       font-weight: 500;
     }
   
-    .card-katalog .katalog-img img {
+    .rekomendasi .card-katalog .katalog-img img {
       border-top-right-radius: 3px;
       border-top-left-radius: 3px;
-      width: 143px;
+      width: 157px;
     }
   
     .card-katalog .harga {
@@ -913,6 +636,7 @@ margin-top: 3px;
 
     .container {
       width: 100%;
+      margin-left: -5px;
     }
     nav {
       display: flex;
@@ -939,7 +663,7 @@ margin-top: 3px;
 
     .cart img {
       width: 30px;
-      margin-left: 5px;
+      margin-left: 0px;
     }
 
     .iklan {
@@ -953,7 +677,11 @@ margin-top: 3px;
 
     .promo img {
       width: 280px;
-      margin-left: 40px;
+      float: left;
+    }
+
+    .promo {
+      margin-left: -15px;
     }
 
     
@@ -965,8 +693,12 @@ margin-top: 3px;
       width: 140px;
       height: 97px;
       border-radius: 6px;
-      margin: 0 22px 8px 10px;
+      margin: 0 0px 8px -40px;
       border: 1px solid silver;
+    }
+
+    .kategori {
+      margin-left: 15px;
     }
 
     .kategori .kategori-text p, .rekomendasi .rekomendasi-teks p {
@@ -982,12 +714,12 @@ margin-top: 3px;
       font-weight: 700;
     }
   
-    .kategori-text p {
-      margin-left: -20px;
+    .kategori .kategori-text p {
+      margin-left: -3px;
     }
   
-    .rekomendasi-teks p {
-      margin-left: 3px;
+    .rekomendasi .rekomendasi-teks p {
+      margin-left: 15px;
     }
   
     .items {
@@ -1030,6 +762,7 @@ margin-top: 3px;
     /* rekomendasi */
     .rekomendasi {
       margin-top: 60px;
+      margin-left: -15px;
     }
   
     .katalog-produk {
@@ -1061,7 +794,7 @@ margin-top: 3px;
     }
   
     .card-katalog .deskripsi, .harga {
-      width: 115px;
+      width: 98px;
       margin: 3px;
       padding-left: 3px;
       font-size: 9.9px;
@@ -1080,6 +813,10 @@ margin-top: 3px;
     .card-katalog .harga {
       margin-top: 9px;
       font-weight: bold;
+    }
+
+    #add-harga {
+      margin-top: 25px;
     }
   
     .card-katalog .rating {
@@ -1106,7 +843,7 @@ margin-top: 3px;
     .footer {
       margin-top: 120px;
       background-color: rgb(20, 20, 76);
-      width: 449px;
+      width: 329px;
       height: 400px;
       margin-left: -100px;
       bottom: 0;
@@ -1130,6 +867,7 @@ margin-top: 3px;
   
     .footer-content .logo-miu {
       margin-top: 10px;
+      margin-left: 20px;
     }
 
     .logo-miu img {
@@ -1142,12 +880,14 @@ margin-top: 3px;
       font-family: "Poppins", sans-serif;
       font-size: 12px;
       font-weight: 600;
+      margin-left: 20px;
     }
   
     .top-kategori a, .layanan-miu a {
       color: white;
       font-family: "Outfit", sans-serif;
       font-weight: 400;
+      margin-left: 20px;
       font-size: 10px;
       transition-duration: 0.7s;
     }
@@ -1158,7 +898,7 @@ margin-top: 3px;
   
     .sosmed-icon a {
       color: white;
-      margin-right: 6px;
+      margin-left: 20px;
     }
   
     .sosmed-icon i {
@@ -1220,7 +960,7 @@ margin-top: 3px;
     }
 
     .promo img {
-      width: 280px;
+      width: 330px;
       margin-left: 40px;
     }
 
@@ -1230,10 +970,10 @@ margin-top: 3px;
       flex-wrap: wrap;
     }
     .kategori .card {
-      width: 140px;
-      height: 97px;
+      width: 160px;
+      height: 140px;
       border-radius: 6px;
-      margin: 0px 22px 8px 10px;
+      margin: 6px 0px 8px 18px;
       border: 1px solid silver;
     }
 
@@ -1265,7 +1005,7 @@ margin-top: 3px;
     .card {
       padding: 12px;
       background-color: rgb(255, 255, 255);
-      width: 120px;
+      width: 130px;
       justify-content: space-around;
       box-sizing: border-box;
       margin: 5px 11px 5px 0;
@@ -1274,14 +1014,14 @@ margin-top: 3px;
    
   
     .card .gambar img {
-      width: 50px;
+      width: 70px;
       margin-left: 30px;
     }
   
     .card .keterangan p {
       text-align: center;
       padding-top: 8px;
-      font-size: 10px;
+      font-size: 14px;
     }
   
     .card a {
@@ -1303,15 +1043,15 @@ margin-top: 3px;
     .katalog-produk {
       display: flex;
       flex-wrap: wrap;
-      margin: auto;
+      margin-left: 30px;
       padding: 6px;
-      width: 320px;
+      width: 380px;
       height: 1300px;
     }
   
     .card-katalog {
-      height: 240px;
-      width: 145px;
+      height: 295px;
+      width: 175px;
       margin-top: 10px;
       background-color: white;
       border: 1px solid silver;
@@ -1329,10 +1069,14 @@ margin-top: 3px;
     }
   
     .card-katalog .deskripsi, .harga {
-      width: 115px;
+      width: 140px;
       margin: 3px;
       padding-left: 3px;
-      font-size: 9.9px;
+      font-size: 13px;
+    }
+
+    #add-harga {
+      margin-top: 25px;
     }
   
     .card-katalog .deskripsi {
@@ -1342,7 +1086,7 @@ margin-top: 3px;
     .card-katalog .katalog-img img {
       border-top-right-radius: 3px;
       border-top-left-radius: 3px;
-      width: 143px;
+      width: 173px;
     }
   
     .card-katalog .harga {
@@ -1360,21 +1104,22 @@ margin-top: 3px;
       width: 12px;
     }
     .rating .rating-angka {
-      margin-top: 4px;
+      margin-top: 1px;
       margin-left: 4px;
       font-size: 10px;
+      font-weight: 600;
     }  
   
     .lokasi {
       margin-left: 10px; 
-      margin-top: 6px;
       font-size: 9.7px;
+      font-weight: 600;
     }
     
     .footer {
       margin-top: 120px;
       background-color: rgb(20, 20, 76);
-      width: 449px;
+      width: 490px;
       height: 400px;
       margin-left: -100px;
       bottom: 0;
@@ -1392,7 +1137,7 @@ margin-top: 3px;
       display: flex;
       flex-wrap: wrap;
       margin-top: 20px;
-      margin-left: 80px;
+      margin-left: 70px;
       gap: 30px;
     }
   
@@ -1405,10 +1150,10 @@ margin-top: 3px;
       width: 200px;
     }
   
-    .top-kategori p, .layanan-miu p, .sosmed p{
+    .top-kategori p, .layanan-miu p, .sosmed p, .copyright a{
       margin-bottom: 10px;
       font-family: "Poppins", sans-serif;
-      font-size: 12px;
+      font-size: 14px;
       font-weight: 600;
     }
   
@@ -1416,7 +1161,7 @@ margin-top: 3px;
       color: white;
       font-family: "Outfit", sans-serif;
       font-weight: 400;
-      font-size: 10px;
+      font-size: 13px;
       transition-duration: 0.7s;
     }
   
@@ -1434,7 +1179,7 @@ margin-top: 3px;
     }
   
     .copyright {
-      margin-left: 36%;
+      margin-left: 34%;
       margin-top: 80px;
     }
   
