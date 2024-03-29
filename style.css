@@ -380,6 +380,7 @@ margin-top: 3px;
 
     .container {
       width: 100%;
+      color: blue;
     }
     nav {
       display: flex;
@@ -636,6 +637,7 @@ margin-top: 3px;
 
     .container {
       width: 100%;
+      color: green;
     }
    
     .navbar {
@@ -912,10 +914,11 @@ margin-top: 3px;
     }
   }
 
-  @media (max-width: 410px) {
+  @media (max-width: 428px) {
 
     .container {
       width: 100%;
+      color: purple;
     }
     
     .navbar {
