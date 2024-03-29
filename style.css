@@ -636,13 +636,8 @@ margin-top: 3px;
 
     .container {
       width: 100%;
-      margin-left: -5px;
     }
-    nav {
-      display: flex;
-      height: 150px;
-    }
-
+   
     .navbar {
       flex-direction: column;
     }
@@ -922,11 +917,7 @@ margin-top: 3px;
     .container {
       width: 100%;
     }
-    nav {
-      display: flex;
-      height: 150px;
-    }
-
+    
     .navbar {
       flex-direction: column;
     }
