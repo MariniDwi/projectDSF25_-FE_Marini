@@ -927,7 +927,6 @@ margin-top: 3px;
     nav {
       width: 100%;
     }
-
     .navbar {
       flex-direction: column;
     }
@@ -939,10 +938,6 @@ margin-top: 3px;
     .container_search {
       display: flex;
       flex-direction: row;
-    }
-
-    .search-bar {
-      max-width: 100%;
     }
 
     .search-bar button {
@@ -1124,7 +1119,7 @@ margin-top: 3px;
     .footer {
       margin-top: 120px;
       background-color: rgb(20, 20, 76);
-      width: 100%;
+      width: 490px;
       height: 400px;
       margin-left: -100px;
       bottom: 0;
