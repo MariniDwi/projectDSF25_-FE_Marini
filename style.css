@@ -28,6 +28,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 10px 0;
+    
   }
 
   .navbar .logo img{
@@ -36,7 +37,7 @@
 
   .container_search {
     height: 55px;
-    display: grid;
+    display: flex;
     place-items: center; 
     width: 80%;
     min-height: 9vh;
@@ -1188,7 +1189,6 @@ margin-top: 3px;
 
     .container {
       width: 100%;
-      color: red;
     }
     
     .navbar {
@@ -1454,15 +1454,15 @@ margin-top: 3px;
     }
   }
 
-  @media (max-width: 431px) {
+  @media (max-width: 435px) {
 
     .container {
       width: 100%;
-      color: orange;
     }
     
     .navbar {
       flex-direction: column;
+      width: 100%;
     }
 
     .logo img {
@@ -1494,7 +1494,7 @@ margin-top: 3px;
     }
 
     .promo img {
-      width: 330px;
+      width: 220px;
       margin-left: 40px;
     }
 
