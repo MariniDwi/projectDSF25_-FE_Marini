@@ -912,7 +912,7 @@ margin-top: 3px;
     }
   }
 
-  @media (max-width: 428px) {
+  @media (max-width: 410px) {
 
     .container {
       width: 100%;
