@@ -377,7 +377,6 @@ margin-top: 3px;
   }
 
   @media (max-width: 321px) {
-
     .container {
       width: 100%;
     }
@@ -1178,9 +1177,270 @@ margin-top: 3px;
     }
   }
 
-  
-  
+  @media (max-width: 428px) {
 
-  
+    .container {
+      width: 100%;
+    }
+    nav {
+      display: flex;
+      height: 150px;
+    }
 
- 
+    .navbar {
+      flex-direction: column;
+    }
+
+    .logo img {
+      width: 100px;
+    }
+    
+    .container_search {
+      display: flex;
+      flex-direction: row;
+    }
+
+    .search-bar button {
+      margin-left: -60px;
+      margin-top: 3px;
+    }
+
+    .cart img {
+      width: 30px;
+      margin-left: 5px;
+    }
+
+    .iklan {
+      display: flex;
+      flex-direction: column;
+    }
+
+    #slider {
+      display: none;
+    }
+
+    .promo img {
+      width: 280px;
+      margin-left: 40px;
+    }
+
+    
+    .items {
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .kategori .card {
+      width: 140px;
+      height: 97px;
+      border-radius: 6px;
+      margin: 0 22px 8px 10px;
+      border: 1px solid silver;
+    }
+
+    .kategori .kategori-text p, .rekomendasi .rekomendasi-teks p {
+      padding: 20px;
+      font-size: 26px;
+      font-weight: bold;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      background-color: white;
+    }
+  
+    .items .keterangan p {
+      font-family: "Quicksand", sans-serif;
+      font-weight: 700;
+    }
+  
+    .kategori-text p {
+      margin-left: -20px;
+    }
+  
+    .rekomendasi-teks p {
+      margin-left: 3px;
+    }
+  
+    .items {
+      display: flex;
+    }
+  
+    .card {
+      padding: 12px;
+      background-color: rgb(255, 255, 255);
+      width: 120px;
+      justify-content: space-around;
+      box-sizing: border-box;
+      margin: 5px 11px 5px 0;
+    }
+  
+   
+  
+    .card .gambar img {
+      width: 50px;
+      margin-left: 30px;
+    }
+  
+    .card .keterangan p {
+      text-align: center;
+      padding-top: 8px;
+      font-size: 10px;
+    }
+  
+    .card a {
+      cursor: pointer;
+      color: black;
+    }
+  
+    .card:hover {
+      transform: scale(1.05);
+      transition-duration: 0.6s;
+    }
+    /* kategori end */
+  
+    /* rekomendasi */
+    .rekomendasi {
+      margin-top: 60px;
+    }
+  
+    .katalog-produk {
+      display: flex;
+      flex-wrap: wrap;
+      margin: auto;
+      padding: 6px;
+      width: 320px;
+      height: 1300px;
+    }
+  
+    .card-katalog {
+      height: 240px;
+      width: 145px;
+      margin-top: 5px;
+      background-color: white;
+      border: 1px solid silver;
+      border-radius: 3px;
+      font-family: "Signika", sans-serif;
+    }
+  
+    .card-katalog a {
+      color: black;
+    }
+  
+    .card-katalog:hover {
+      transform: scale(1.05);
+      transition-duration: 0.6s;
+    }
+  
+    .card-katalog .deskripsi, .harga {
+      width: 115px;
+      margin: 3px;
+      padding-left: 3px;
+      font-size: 9.9px;
+    }
+  
+    .card-katalog .deskripsi {
+      font-weight: 500;
+    }
+  
+    .card-katalog .katalog-img img {
+      border-top-right-radius: 3px;
+      border-top-left-radius: 3px;
+      width: 143px;
+    }
+  
+    .card-katalog .harga {
+      margin-top: 9px;
+      font-weight: bold;
+    }
+  
+    .card-katalog .rating {
+      display: flex;
+      margin-left: 6px;
+      margin-top: 12px;
+    }
+  
+    .rating .rating-img img {
+      width: 12px;
+    }
+    .rating .rating-angka {
+      margin-top: 4px;
+      margin-left: 4px;
+      font-size: 10px;
+    }  
+  
+    .lokasi {
+      margin-left: 10px; 
+      margin-top: 6px;
+      font-size: 9.7px;
+    }
+    
+    .footer {
+      margin-top: 120px;
+      background-color: rgb(20, 20, 76);
+      width: 449px;
+      height: 400px;
+      margin-left: -100px;
+      bottom: 0;
+      color: white;
+    }
+  
+    .footer-content {
+      width: 90%;
+      margin: auto;
+      display: flex;
+      flex-wrap: wrap;
+    }
+  
+    .footer-info {
+      display: flex;
+      flex-wrap: wrap;
+      margin-top: 20px;
+      margin-left: 80px;
+      gap: 30px;
+    }
+  
+    .footer-content .logo-miu {
+      margin-top: 10px;
+    }
+
+    .logo-miu img {
+      margin-left: 37px;
+      width: 200px;
+    }
+  
+    .top-kategori p, .layanan-miu p, .sosmed p{
+      margin-bottom: 10px;
+      font-family: "Poppins", sans-serif;
+      font-size: 12px;
+      font-weight: 600;
+    }
+  
+    .top-kategori a, .layanan-miu a {
+      color: white;
+      font-family: "Outfit", sans-serif;
+      font-weight: 400;
+      font-size: 10px;
+      transition-duration: 0.7s;
+    }
+  
+    .top-kategori a:hover, .layanan-miu a:hover {
+      opacity: 0.5;
+    }
+  
+    .sosmed-icon a {
+      color: white;
+      margin-right: 6px;
+    }
+  
+    .sosmed-icon i {
+      margin-top: 15px;
+    }
+  
+    .copyright {
+      margin-left: 36%;
+      margin-top: 80px;
+    }
+  
+    .copyright a {
+      color: white;
+      font-size: 12px;
+      margin-bottom: 8px;
+    }
+  }
