@@ -1,784 +1,165 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FrontEnd - Marini Dwi Astuti</title>
+    <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-</head>
-<body>
+  </head>
+  <body>
 
-  <!-- navigasi -->
+    <!-- navigasi start -->
     <nav>
       <div class="container">
         <div class="navbar">
           <div class="logo">
-            <img src="images/logomiu.png" alt="Logo Miu Shopp" />
+            <img src="images/logo.png" alt="LogoUBJ" />
           </div>
-          <div class="container_search">
-
-            <form action="" class="search-bar">
-              <input type="text" placeholder="Cari di Miu Shop"> 
-              <button type="submit"><img src="images/search-line.png" alt=""></button>
-            </form>
-            <form action="" class="cart">
-              <button><img src="images/shopping-cart-2-line.png" alt=""></button>
-            </form>
-            
-          </div>
-        </div>
-       </div> 
-      </nav>
-      <!-- navigasi -->
-
-      <!-- banner -->
-      <div class="container">
-        <div class="iklan">
-          <div id="slider">
-            <figure>
-              <img src="images/banner1.png" alt="">
-              <img src="images/banner2.png" alt="">
-              <img src="images/banner3a.png" alt=""> 
-            </figure></div>
-            <div class="promo">
-              <img src="images/promo1.png" alt="">
-              <img src="images/promo2.png" alt="">
-            </div>
+          <ul class="navbar-items">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#service">Service</a></li>
+          </ul>
         </div>
       </div>
-      <!-- banner end -->
+    </nav>
+    <!-- navigasi end -->
 
-      <!-- kategori -->
-      <div class="container">
-      <div class="kategori">
-        <div class="kategori-text">
-          <p>KATEGORI</p>
-        </div>
-
-        <div class="items">
-          
-          <div class="card">
-            <a href="#">
-              <div class="gambar">
-              <img src="kategori/1.png" alt="">
-            </div>
-            <div class="keterangan">
-              <p>Makanan & Snack</p>
-            </div>
-            </a>
-            
-          </div>
-          
-
-          <div class="card">
-            <a href="#">
-              <div class="gambar">
-                <img src="kategori/2.png" alt="">
-              </div>
-              <div class="keterangan">
-                <p>Alat Makan</p>
-              </div>
-            </a>
-              
-           </div>
-          
-
-           <div class="card">
-            <a href="#">
-              <div class="gambar">
-                <img src="kategori/3.png" alt="">
-              </div>
-              <div class="keterangan">
-                <p>Kandang dan Keranjang</p>
-              </div>
-            </a>
-              
-            </div>
-
-            <div class="card">
-              <a href="#">
-                <div class="gambar">
-                <img src="kategori/4.png" alt="">
-              </div>
-              <div class="keterangan">
-                <p>Perlengkapan Tidur</p>
-              </div>
-              </a>
-              
-            </div>
-
-            <div class="card">
-              <a href="#">
-                 <div class="gambar">
-                <img src="kategori/5.png" alt="">
-              </div>
-              <div class="keterangan">
-                <p>Perlengkapan Kebersihan</p>
-              </div>
-              </a>
-             
-            </div>
-
-            <div class="card">
-              <a href="#">
-                <div class="gambar">
-                <img src="kategori/10.png" alt="">
-              </div>
-              <div class="keterangan">
-                <p>Mainan</p>
-              </div>
-              </a>
-              
-            </div>
-
-            <div class="card">
-              <a href="#">
-                 <div class="gambar">
-                <img src="kategori/7.png" alt="">
-              </div>
-              <div class="keterangan">
-                <p>Perlengkapan Kitten</p>
-              </div>
-              </a>
-             
-            </div>
-
-            <div class="card">
-              <a href="#">
-                <div class="gambar">
-                <img src="kategori/8.png" alt="">
-              </div>
-              <div class="keterangan">
-                <p>Pakaian Kucing</p>
-              </div>
-              </a>
-              
-            </div>
-
-            <div class="card">
-              <a href="#">
-                <div class="gambar">
-                <img src="kategori/9.png" alt="">
-              </div>
-              <div class="keterangan">
-                <p>Kesehatan</p>
-              </div>
-              </a>
-              
-            </div>
-
-            <div class="card" style="margin-right: 5px;">
-              <a href="#">
-                <div class="gambar">
-                <img src="kategori/11.png" alt="">
-              </div>
-              <div class="keterangan">
-                <p>Aksesoris Kucing</p>
-              </div>
-              </a>
-              
-            </div>
-
-        </div>
-    </div>
-    </div>
-    <!-- kategori -->
-
-    <!-- katalog -->
+<!-- home start -->
     <div class="container">
-      <div class="rekomendasi">
-        <div class="rekomendasi-teks">
-          <p>Rekomendasi Miu</p></div>
+        <section id="home" class="section-padding">    
+              <div class="home-container">
+                <div class="home-text">
+                  <h3>Front End</h3>
+                  <p>
+                    Terus tingkatkan kemampuan front end-mu untuk mencapai keberhasilan
+                    dalam bidang ini dan mulai belajar sekarang!
+                  </p>
+                  <a href="#materi">Materi Pembelajaran</a>
+                </div>
+        
+                <div class="home-img">
+                  <img src="images/konten1.png" alt="konten-1" />
+                </div>
+              </div>
+        </section>
+<!-- home end -->
 
-        <div class="katalog-produk">
+<!-- about start -->
+        <section id="about" class="section-padding">
+            <section class="about-container">
+              <div class="about-img">
+                <img src="images/konten2.png" alt="konten2" />
+              </div>
+              <section class="about-text">
+                <h3>Apa itu Front-End?</h3>
+                <p>
+                  Front-End Developer adalah sebuah komunitas yang berfokus pada
+                  pengembangan tampilan dan antarmuka pengguna (UI/UX) dalam dunia
+                  pemrograman web. Komunitas ini dibentuk oleh mahasiswa dan
+                  pengembang pemula yang tertarik dalam teknologi web dan ingin
+                  mengembangkan keterampilan mereka dalam front-end development.</p>
+                </section>
+            </section>
+            
+          </section>     
+<!-- about end -->
 
-          <!-- 1 -->
-          <div class="card-katalog">
-            <a href="https://shp.ee/tjbpoxd">
-            <div class="katalog-img"> 
-              <img src="katalog/1.png" alt="">
+<!-- materi start -->
+        <section id="materi" class="section-padding">
+            <div class="center">
+                <div class="kolom">
+                    <h3>Materi Pembelajaran</h3>
+                    <p>Jangan biarkan ketakutan atau ketidaktahuan menghalangi Anda. Mulailah belajar teknologi sekarang!</p>
+                </div>
             </div>
-            <div class="deskripsi">
-              Dry Food Life Cat 1Kg
+        </section>
+<!-- materi end -->
+
+<!-- card start -->
+        <section id="card" class="card-materi">
+          <div class="container-materi">
+
+            <div class="card1">
+              <div class="card-image">
+                <img src="images/html.png" alt="html">
+              </div>
+              <div class="card1-text">
+                  <h3>HTML</h3>
+                  <p>HTML adalah bahasa markup yang digunakan untuk membuat sebuah halaman website.</p>
+                  <a href="#">Selengkapnya →</a>
+              </div>
+            </div>  
+            
+          <div class="card2">
+            <div class="card-image">
+              <img src="images/css.png" alt="CSS">
             </div>
-            <div class="harga" id="add-harga">Rp25.700</div>
+            <div class="card2-text">
+                <h3>CSS</h3>
+                <p>CSS  bahasa yang digunakan untuk mengatur tampilan dari elemen yang ditampilkan website</p>
+                <a href="#">Selengkapnya →</a>
+            </div>
+          </div>  
+                    
           
-          <div class="rating">
-            <div class="rating-img">
-              <img src="katalog/star.png" alt="">
+          <div class="card3">
+            <div class="card-image">
+              <img src="images/JS.png" alt="JS">
             </div>
-            <div class="rating-angka">4.9 / 5 | 10RB+Terjual</div>
+            <div class="card3-text">
+                <h3>JavaScript</h3>
+                <p>JavaScript adalah bahasa pemrograman yang sering digunakan untuk membuat website lebih interaktif </p>
+                <a href="#">Selengkapnya →</a>
+            </div>
+          </div>  
+          
           </div>
-          <div class="lokasi">Kota Jakarta Utara</div>
-        </div></a>
-        <!-- 1 -->
+        </section>
+    </div>
+<!-- card end -->
 
-        <!-- 2 -->
-        <div class="card-katalog">
-          <a href="https://shp.ee/izu402t">
-          <div class="katalog-img">
-            <img src="katalog/2.png" alt="">
+<!-- footer start -->
+        <footer>
+          <section id="service">
+          <div class="container-footer">
+            <div class="logo-footer">
+              <img src="images/logo.png" alt="LogoUBJ" />
+              <p>Bhayangkara Code Community</p>
           </div>
-          <div class="deskripsi">
-            Meo Creamy Treats
-          </div>
-          <div class="harga" id="add-harga">Rp18.786</div>
-        <div class="rating">
-          <div class="rating-img">
-            <img src="katalog/star.png" alt="">
-          </div>
-          <div class="rating-angka">4.9 / 5 | 554 Terjual</div>
-        </div>
-        <div class="lokasi">Kota Bekasi</div>
-      </div></a>
-      <!-- 2 -->
-
-      <!-- 3 -->
-      <div class="card-katalog">
-        <a href="https://shp.ee/306bkcr">
-        <div class="katalog-img">
-          <img src="katalog/3.png" alt="">
-        </div>
-        <div class="deskripsi">
-          Sisir Bulu Kucing
-        </div>
-        <div class="harga" id="add-harga">Rp15.000</div>
-      
-      <div class="rating">
-        <div class="rating-img">
-          <img src="katalog/star.png" alt="">
-        </div>
-        <div class="rating-angka">4.9 / 5 | 4,1RB Terjual</div>
-      </div>
-      <div class="lokasi">Kota Tangerang</div>
-    </div></a>
-    <!-- 3 -->
-
-    <!-- 4 -->
-    <div class="card-katalog">
-      <a href="https://shp.ee/q7l2m0s">
-      <div class="katalog-img">
-        <img src="katalog/4.png" alt="">
-      </div>
-      <div class="deskripsi">
-        BATUXIN Cat - Obat Batuk
-      </div>
-      <div class="harga">Rp14.500</div>
-    
-    <div class="rating">
-      <div class="rating-img">
-        <img src="katalog/star.png" alt="">
-      </div>
-      <div class="rating-angka">4.9 / 5 | 4,6RB Terjual</div>
-    </div>
-    <div class="lokasi">Kota Jakarta Timur</div>
-  </div></a>
-  <!-- 4 -->
-
-  <!-- 5 -->
-  <div class="card-katalog">
-    <a href="https://shp.ee/0i1h34s">
-    <div class="katalog-img">
-      <img src="katalog/5.png" alt="">
-    </div>
-    <div class="deskripsi">
-      Wet Cat Food Pouch 85gr
-    </div>
-    <div class="harga">Rp4.750</div>
-  
-  <div class="rating">
-    <div class="rating-img">
-      <img src="katalog/star.png" alt="">
-    </div>
-    <div class="rating-angka">4.9 / 5 | 10RB+Terjual</div>
-  </div>
-  <div class="lokasi">Kota Bandung</div>
-</div>
-</a>
-<!-- 5 -->
-
-
-<!-- 6 -->
-<div class="card-katalog">
-  <a href="https://shp.ee/30nd4p1">
-  <div class="katalog-img">
-    <img src="katalog/6.png" alt="">
-  </div>
-  <div class="deskripsi">
-    Dress Gaun Anjing Kucing
-  </div>
-  <div class="harga">Rp40.900</div>
-
-<div class="rating">
-  <div class="rating-img">
-    <img src="katalog/star.png" alt="">
-  </div>
-  <div class="rating-angka">5 / 5 | 2,1RB Terjual</div>
-</div>
-<div class="lokasi">Kota Jakarta Pusat</div>
-</div>
-</a>
-<!-- 6 -->
-
-
-<!-- 7 -->
-<div class="card-katalog">
-  <a href="https://shp.ee/kgaiqyr">
-  <div class="katalog-img">
-    <img src="katalog/7.png" alt="">
-  </div>
-  <div class="deskripsi">
-    Botol Dot Anak Kucing
-  </div>
-  <div class="harga" id="add-harga">Rp15.990</div>
-
-<div class="rating">
-  <div class="rating-img">
-    <img src="katalog/star.png" alt="">
-  </div>
-  <div class="rating-angka">4.7 / 5 | 45 Terjual</div>
-</div>
-<div class="lokasi">Kota Jakarta Utara</div>
-</div></a>
-<!-- 7 -->
-
-    <!-- 8 -->
-    <div class="card-katalog">
-      <div class="katalog-img">
-        <img src="katalog/8.png" alt="">
-      </div>
-      <div class="deskripsi">
-        Tali Hewan Peliharaan
-      </div>
-      <div class="harga" id="add-harga">Rp20.000</div>
-    
-    <div class="rating">
-      <div class="rating-img">
-        <img src="katalog/star.png" alt="">
-      </div>
-      <div class="rating-angka">4.7 / 5 | 10RB+Terjual</div>
-    </div>
-    <div class="lokasi">Kota Bogor</div>
-    </div>
-    <!-- 8 -->
-
-
-    <!-- 9 -->
-    <div class="card-katalog">
-      <div class="katalog-img">
-        <img src="katalog/9.png" alt="">
-      </div>
-      <div class="deskripsi">
-        Paket MIU1
-      </div>
-      <div class="harga" id="add-harga">Rp30.000</div>
-    
-    <div class="rating">
-      <div class="rating-img">
-        <img src="katalog/star.png" alt="">
-      </div>
-      <div class="rating-angka">4.6 / 5 | 30RB+Terjual</div>
-    </div>
-    <div class="lokasi">Kota Jakarta Selatan</div>
-    </div>
-    <!-- 9 -->
-
-    <!-- 10 -->
-    <div class="card-katalog">
-      <a href="https://shp.ee/pj9lzpm">
-      <div class="katalog-img">
-        <img src="katalog/10.png" alt="">
-      </div>
-      <div class="deskripsi">
-        Tempat Tidur Kucing
-      </div>
-      <div class="harga" id="add-harga">Rp21.900</div>
-    
-    <div class="rating">
-      <div class="rating-img">
-        <img src="katalog/star.png" alt="">
-      </div>
-      <div class="rating-angka">4.8 / 5 | 3,9RB Terjual</div>
-    </div>
-    <div class="lokasi">Kab. Tangerang</div>
-    </div>
-  </a>
-    <!-- 10 -->
-
-    <!-- 11 -->
-    <div class="card-katalog">
-      <a href="https://shp.ee/dj216j3"></a>
-      <div class="katalog-img">
-        <img src="katalog/11.png" alt="">
-      </div>
-      <div class="deskripsi">
-        Pet Cargo Kucing Jumbo
-      </div>
-      <div class="harga" id="add-harga">Rp93.699</div>
-    
-    <div class="rating">
-      <div class="rating-img">
-        <img src="katalog/star.png" alt="">
-      </div>
-      <div class="rating-angka">4.9 / 5 | 124 Terjual</div>
-    </div>
-    <div class="lokasi">Bandung</div>
-    </div>
-  </a>
-    <!-- 11 -->
-
-    <!-- 12 -->
-    <div class="card-katalog">
-      <a href="https://shp.ee/0io3jqy">
-      <div class="katalog-img">
-        <img src="katalog/12.png" alt="">
-      </div>
-      <div class="deskripsi">
-        Tempat Makan Kucing 
-      </div>
-      <div class="harga" id="add-harga">Rp2.399</div>
-    
-    <div class="rating">
-      <div class="rating-img">
-        <img src="katalog/star.png" alt="">
-      </div>
-      <div class="rating-angka">4.8 / 5 | 1RB Terjual</div>
-    </div>
-    <div class="lokasi">Kota Tangerang</div>
-    </div>
-  </a>
-    <!-- 12 -->
-
-    <!-- 13 -->
-    <div class="card-katalog">
-      <a href="https://shp.ee/wro8kc3">
-      <div class="katalog-img">
-        <img src="katalog/13.png" alt="">
-      </div>
-      <div class="deskripsi">
-        Rompi Kucing 
-      </div>
-      <div class="harga" id="add-harga">Rp16.900</div>
-    
-    <div class="rating">
-      <div class="rating-img">
-        <img src="katalog/star.png" alt="">
-      </div>
-      <div class="rating-angka">4.8 / 5 | 10RB+RB Terjual</div>
-    </div>
-    <div class="lokasi">Kota Jakarta Pusat</div>
-    </div>
-  </a>
-    <!-- 13 -->
-
-    <!-- 14 -->
-    <div class="card-katalog">
-      <a href="https://shp.ee/7a203uq">
-      <div class="katalog-img">
-        <img src="katalog/14.png" alt="">
-      </div>
-      <div class="deskripsi">
-        Litter Box Kucing
-      </div>
-      <div class="harga" id="add-harga">Rp48.500</div>
-    
-    <div class="rating">
-      <div class="rating-img">
-        <img src="katalog/star.png" alt="">
-      </div>
-      <div class="rating-angka">4.9 / 5 | 683 Terjual</div>
-    </div>
-    <div class="lokasi">Kota Tangerang</div>
-    </div>
-  </a>
-    <!-- 14 -->
-
-    <!-- 15 -->
-    <div class="card-katalog">
-      <a href="https://shp.ee/wh0x9xm">
-      <div class="katalog-img">
-        <img src="katalog/15.png" alt="">
-      </div>
-      <div class="deskripsi">
-        Tongkat Mainan Kucing 
-      </div>
-      <div class="harga" id="add-harga">Rp2.333</div>
-    
-    <div class="rating">
-      <div class="rating-img">
-        <img src="katalog/star.png" alt="">
-      </div>
-      <div class="rating-angka">4.7 / 5 | 5,6RB Terjual</div>
-    </div>
-    <div class="lokasi">Kota Jakarta Pusat</div>
-    </div>
-  </a>
-    <!-- 15 -->
-
-    <!-- 16 -->
-    <div class="card-katalog">
-      <a href="https://shp.ee/or8used">
-      <div class="katalog-img">
-        <img src="katalog/16.png" alt="">
-      </div>
-      <div class="deskripsi">
-        Kandang Kucing Medium
-      </div>
-      <div class="harga">Rp65.000</div>
-    
-    <div class="rating">
-      <div class="rating-img">
-        <img src="katalog/star.png" alt="">
-      </div>
-      <div class="rating-angka">4.7 / 5 | 10RB+Terjual</div>
-    </div>
-    <div class="lokasi">Kota Jakarta Pusat</div>
-    </div>
-  </a>
-    <!-- 16 -->
-
-    <!-- 17 -->
-    <div class="card-katalog">
-      <a href="https://shp.ee/6i40m87">
-      <div class="katalog-img">
-        <img src="katalog/17.png" alt="">
-      </div>
-      <div class="deskripsi">
-        Pasir Kucing 25L
-      </div>
-      <div class="harga" id="add-harga">Rp85.000</div>
-    
-    <div class="rating">
-      <div class="rating-img">
-        <img src="katalog/star.png" alt="">
-      </div>
-      <div class="rating-angka">5 / 5 | 1,3RB Terjual</div>
-    </div>
-    <div class="lokasi">Kota Denpasar</div>
-    </div>
-  </a>
-    <!-- 17 -->
-
-    <!-- 18 -->
-    <div class="card-katalog">
-      <a href="https://shp.ee/g9yhsjw">
-      <div class="katalog-img">
-        <img src="katalog/18.png" alt="">
-      </div>
-      <div class="deskripsi">
-        Keranjang Kucing
-      </div>
-      <div class="harga" id="add-harga">Rp56.999</div>
-    
-    <div class="rating">
-      <div class="rating-img">
-        <img src="katalog/star.png" alt="">
-      </div>
-      <div class="rating-angka">4.9 / 5 | 1,3RB Terjual</div>
-    </div>
-    <div class="lokasi">Kota Jakarta Pusat</div>
-    </div>
-  </a>
-    <!-- 18 -->
-    
-
-    <!-- 19 -->
-    <div class="card-katalog">
-      <a href="https://shp.ee/352mvtx">
-      <div class="katalog-img">
-        <img src="katalog/19.png" alt="">
-      </div>
-      <div class="deskripsi">
-        Dress Brukat Kucing
-      </div>
-      <div class="harga" id="add-harga">Rp25.090</div>
-    
-    <div class="rating">
-      <div class="rating-img">
-        <img src="katalog/star.png" alt="">
-      </div>
-      <div class="rating-angka">4.8 / 5 | 415 Terjual</div>
-    </div>
-    <div class="lokasi">Kab. Bojonegoro</div>
-    </div>
-  </a>
-    <!-- 19 -->
-
-     <!-- 20 -->
-     <div class="card-katalog">
-      <a href="https://shp.ee/6mpkjtf">
-      <div class="katalog-img">
-        <img src="katalog/23.png" alt="">
-      </div>
-      <div class="deskripsi">
-        Kalung Kucing
-      </div>
-      <div class="harga" id="add-harga">Rp28.000</div>
-    
-    <div class="rating">
-      <div class="rating-img">
-        <img src="katalog/star.png" alt="">
-      </div>
-      <div class="rating-angka">4.9 / 5 | 160 Terjual</div>
-    </div>
-    <div class="lokasi">Kab. Gunung Kidul</div>
-    </div>
-  </a>
-    <!-- 20 -->
-
-     <!-- 21 -->
-     <div class="card-katalog">
-      <a href="https://shp.ee/0idkk1q">
-      <div class="katalog-img">
-        <img src="katalog/26.png" alt="">
-      </div>
-      <div class="deskripsi">
-        Tempat Makan Hewan
-      </div>
-      <div class="harga" id="add-harga">Rp46.931</div>
-    
-    <div class="rating">
-      <div class="rating-img">
-        <img src="katalog/star.png" alt="">
-      </div>
-      <div class="rating-angka">4.8 / 5 | 4,2RB Terjual</div>
-    </div>
-    <div class="lokasi">Kota Jakarta Barat</div>
-    </div>
-  </a>
-    <!-- 21 -->
-
-     <!-- 22 -->
-     <div class="card-katalog">
-      <a href="https://shp.ee/sxs47qr">
-      <div class="katalog-img">
-        <img src="katalog/27.png" alt="">
-      </div>
-      <div class="deskripsi">
-        Olive Care Shampo Kucing
-      </div>
-      <div class="harga">Rp66.710</div>
-    
-    <div class="rating">
-      <div class="rating-img">
-        <img src="katalog/star.png" alt="">
-      </div>
-      <div class="rating-angka">4.9 / 5 | 10RB+Terjual</div>
-    </div>
-    <div class="lokasi">Kota Tangerang</div>
-    </div>
-  </a>
-    <!-- 22 -->
-
-     <!-- 23-->
-     <div class="card-katalog">
-      <a href="https://shp.ee/a9x6ka1">
-      <div class="katalog-img">
-        <img src="katalog/29.png" alt="">
-      </div>
-      <div class="deskripsi">
-        Parfum Pasir Kucing
-      </div>
-      <div class="harga" id="add-harga">Rp12.800</div>
-    
-    <div class="rating">
-      <div class="rating-img">
-        <img src="katalog/star.png" alt="">
-      </div>
-      <div class="rating-angka">4.8 / 5 | 287 Terjual</div>
-    </div>
-    <div class="lokasi">Kota Jakarta Pusat</div>
-    </div>
-  </a>
-    <!-- 23 -->
-
-     <!-- 24 -->
-     <div class="card-katalog">
-      <a href="https://shp.ee/ynuxm31">
-      <div class="katalog-img">
-        <img src="katalog/45.png" alt="">
-      </div>
-      <div class="deskripsi">
-        BIO Cat Kaleng 400gr
-      </div>
-      <div class="harga" id="add-harga">Rp14.980</div>
-    
-    <div class="rating">
-      <div class="rating-img">
-        <img src="katalog/star.png" alt="">
-      </div>
-      <div class="rating-angka">4.9 / 5 | 1,6RB Terjual</div>
-    </div>
-    <div class="lokasi">Kota Jakarta Barat</div>
-    </div>
-  </a>
-  </div>
-    <!-- 24 -->
-    
-
-    <footer>
-      <div class="container-footer">
-          <!-- <div class="footer-content"> -->
-            <div class="logo-miu">
-              <img src="images/logomiu.png" alt="">
+          
+            <div class="learning-path">
+              <h3>Learning Path</h3>
+              <a href="#">Front End</a>
+              <br>
+              <a href="#">UI/UX</a>
             </div>
             
-            <div class="footer-info">
-            <div class="top-kategori">
-              <p>Top Kategori</p>
-              <ul>
-                <li>
-                  <a href="#">Makanan & Snack</a>
-                </li>
-                <li>
-                  <a href="#">Aksesoris Kucing</a>
-                </li>
-                <li>
-                  <a href="#">Pakaian Kucing</a>
-                </li>
-                <li>
-                  <a href="#">Mainan</a>
-                </li>
-                <li>
-                  <a href="#">Perlengkapan Kebersihan</a>
-                </li>
-              </ul>
-            </div>
-  
-            <div class="layanan-miu">
-              <p>Layanan</p>
-              <ul>
-                <li>
-                  <a href="#">Miu Care</a>
-                </li>
-                <li>
-                  <a href="#">Syarat dan Ketentuan</a>
-                </li>
-                <li>
-                  <a href="#">Kebijakan Privasi</a>
-                </li>
-              </ul>
-            </div>
-  
-            <div class="sosmed">
-              <p>Ikuti Kami</p>
-              <div class="sosmed-icon">
-                <a href="#"><i class="fa-brands fa-facebook-f fa-xl"></i></a>
-                <a href="#"><i class="fa-brands fa-instagram fa-xl"></i></a>
-                <a href="#"><i class="fa-brands fa-x-twitter fa-xl"></i></a>
-                <a href="#"><i class="fa-brands fa-tiktok fa-xl"></i></a>
+            <div class="contact-us">
+              <h3>Contact Us</h3>
+              <a href="#">Bharacode@gmail.com</a>
+              <br>
+              <a href="#">(+62) 081-2759-0284</a>
+            </div> 
+
+            <div class="sosial-media">
+              <h3>Follow For More</h3>
+              <div class="icon">
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
               </div>
             </div>
+          </div>
+          
+            <div class="copyright">
+              <a href="#">© 2024 BharaCode All right reserved</a>
             </div>
-          </div>
-          <div class="copyright">
-            <a href="#">© 2024 PT. Miu  | All Right Reserved</a>
-          </div>
-        </footer>
-
-
-</body>
+          
+        </section>
+      </footer>
+    <!-- footer end -->
+  </body>
 </html>
