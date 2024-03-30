@@ -441,7 +441,7 @@ margin-top: 3px;
 
     .iklan .promo img {
       width: 330px;
-      margin-left: 8%;
+      margin-left: 6%;
     }
 
     
@@ -453,12 +453,12 @@ margin-top: 3px;
       width: 160px;
       height: 140px;
       border-radius: 6px;
-      margin: 6px 0px 8px 16px;
+      margin: 6px 0px 8px 12px;
       border: 1px solid silver;
     }
 
     .container .kategori {
-      margin-left: 20px;
+      margin-left: 15px;
     }
     .kategori .kategori-text p, .rekomendasi .rekomendasi-teks p {
       padding: 20px;
@@ -884,7 +884,7 @@ margin-top: 3px;
       background-color: rgb(20, 20, 76);
       /* width: 730px; */
       height: 400px;
-      margin-left: -100px;
+      margin-left: -280px;
       bottom: 0;
       color: white;
     }
