@@ -392,13 +392,29 @@ margin-top: 3px;
     }
   }
 
-  @media (max-width: 375px) {
+  @media (max-width: 384px) {
     .container {
       width: 100%;
     }
+
+    nav .navbar {
+      width: 384px;
+      display: flex;
+      flex-direction: column;
+    }
     
     .container .iklan .promo img {
-      width: 320px;
+      width: 350px;
+    }
+
+    #slider {
+      display: none;
+    }
+
+    .container .kategori .items{
+      display: flex;
+      flex-wrap: wrap;
+      width: 383px;
     }
 
     .container .kategori .card {
@@ -410,25 +426,130 @@ margin-top: 3px;
     }
 
     .container .rekomendasi .katalog-produk {
-      /* margin-left: 26px; */
       margin-right: 0;
+      display: flex;
+      flex-wrap: wrap;
+      width: 383px;
     }
 
     .container .rekomendasi .katalog-produk .card-katalog {
-      width: 175px;
+      width: 165px;
     }
 
     .container .rekomendasi .katalog-produk .card-katalog .katalog-img img {
-      width: 173px;
+      width: 163px;
     }
 
     footer {
       display: flex;
       flex-wrap: wrap;
+      margin-top: 2900px;
+      width: 445px;
+      height: 600px;
     }
 
-    footer .footer-info {
-      gap: 13px;
+    footer .footer-content {
+      gap: 5px;
+    }
+
+    footer .footer-content .footer-info {
+      gap: 30px;
+      margin-left: 120px;
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    footer .footer-content .logo-miu img {
+      width: 300px;
+      margin-left: 40px;
+    }
+
+    .footer-info .top-kategori p, .layanan-miu p, .sosmed {
+      font-size: 14px;
+    }
+
+    .footer-info .top-kategori a, .layanan-miu a {
+      font-size: 12px;
+    }
+
+    footer .copyright a {
+      margin-left: -40px;
+    }
+
+  }
+
+  @media (min-width: 385px)  and(max-width: 393px) {
+    .container {
+      width: 100%;
+    }
+
+    nav .navbar {
+      display: flex;
+      flex-direction: column;
+    }
+    
+    .container .iklan .promo img {
+      width: 400px;
+    }
+
+    #slider {
+      display: none;
+    }
+
+    .container .kategori .items {
+      max-width: 420px;
+      display: flex;
+      flex-wrap: wrap;
+      margin-left: 12px;
+    }
+
+    .container .kategori .card {
+      width: 199px;
+    }
+
+    .container .kategori .gambar img {
+      margin-left: 44px;
+    }
+
+    .container .rekomendasi .katalog-produk {
+      margin-left: 20px;
+      margin-right: 0;
+      display: flex;
+      flex-wrap: wrap;
+      width: 480px;
+    }
+
+    .container .rekomendasi .katalog-produk .card-katalog {
+      width: 200px;
+      height: 330px;
+    }
+
+    .container .rekomendasi .katalog-produk .card-katalog .katalog-img img {
+      width: 198px;
+    }
+
+    footer {
+      display: flex;
+      flex-wrap: wrap;
+      margin-top: 2900px;
+      width: 540px;
+      height: 600px;
+    }
+
+    footer .footer-content {
+      gap: 5px;
+    }
+
+    footer .footer-content .footer-info {
+      gap: 80px;
+      margin-left: 120px;
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    footer .footer-content .logo-miu img {
+      width: 300px;
+      margin-left: 40px;
     }
 
     .footer-info .top-kategori p, .layanan-miu p, .sosmed {
@@ -440,11 +561,12 @@ margin-top: 3px;
     }
 
     footer .copyright a {
-      margin-left: 9px;
+      margin-left: -40px;
     }
   }
 
-  @media (max-width: 480px) {
+
+  @media (min-width: 426px)  and (max-width: 480px){
     .container {
       width: 100%;
     }
