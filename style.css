@@ -478,7 +478,7 @@ margin-top: 3px;
 
   }
 
-  @media (max-width: 393px) {
+  @media (max-width: 576px) {
     .container {
       width: 100%;
     }
@@ -579,7 +579,7 @@ margin-top: 3px;
   }
 
 
-  @media (min-width: 426px)  and (max-width: 480px){
+  @media (max-width: 480px){
     .container {
       width: 100%;
     }
@@ -718,3 +718,4 @@ margin-top: 3px;
       margin-left: -16px;
     }
   }
+
